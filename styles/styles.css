@@ -2,4 +2,22 @@
     height:300px;
     width: 300px;
     float:right;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.bottom-logo{
+    margin-top:auto;;
+    text-align:center;
+    }
+.bottom-link{
+    flex-direction:row;
+}
+main{
+    display:flex;
+    flex-basis:auto;
+}
+.box{
+    height:300px;
+    width:200px ;
 }
