@@ -34,6 +34,25 @@
 .container{
     display:grid;
 }
+header{
+    background-color:rgb(37, 148, 170);
+    color:white;
+    font-family:sans-serif;
+    padding-left:10em;
+    padding-top:3em;
+    padding-bottom:5em;
+}
+.kitties-italic{
+    font-style:italic;
+    font-size:20px;
+}
+.navigation-bar{
+    padding-left:10em;
+    color:rgb(64, 10, 10);
+}
+#link{
+    color:black;
+}
 .box{
     display:block;
     flex-direction:row;
