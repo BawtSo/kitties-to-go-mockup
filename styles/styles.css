@@ -35,7 +35,7 @@
     display:grid;
 }
 header{
-    background-color:rgb(37, 148, 170);
+    background-color:hwb(190 15% 33%);
     color:white;
     font-family:sans-serif;
     padding-left:10em;
@@ -47,8 +47,11 @@ header{
     font-size:20px;
 }
 .navigation-bar{
-    padding-left:10em;
+    padding-left:13em;
     color:rgb(64, 10, 10);
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:12px;
 }
 #link{
     color:black;
@@ -62,17 +65,21 @@ header{
     margin:0 0 20% 0;
 }
 .side-bar{
-    display:block;
-    position:relative;
+    display:flex;
+    flex-direction:column;
     text-wrap:wrap;
     float:right;
-    width:15%;
+    width:30em;
     height:60%;
-    padding-right:15%;
+    padding-right:10%;
     padding-bottom:5%;
-    font-size:14px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+    font-size:12px;
+    word-wrap:break-word;
+    font-family:sans-serif;
+}
+h3{
+    font-size:16px;
+    font-variant: small-caps;
 }
 .bottom-logo{
     font-size:10px;
@@ -87,7 +94,4 @@ header{
     padding-top:6%;
     font-size:5em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-main{
-    border-style:double;
 }
