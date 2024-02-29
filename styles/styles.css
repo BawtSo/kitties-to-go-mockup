@@ -43,6 +43,7 @@ header{
     background-color:hwb(190 15% 33%);
     color:white;
     font-family:sans-serif;
+    font-size:20px;
     padding-left:10em;
     padding-top:2em;
     padding-bottom:3em;
@@ -67,8 +68,12 @@ header{
     background-color:lightgray;
 
 }
-a{
+#link{
     color:black;
+
+}
+a{
+    color:teal;
     text-decoration:none;
 }
 
@@ -79,7 +84,7 @@ main{
     display:flex;
     flex-direction:column;
     justify-content:first baseline;
-    width:25em;
+    width:20em;
     margin:0 0 20% 0;
 }
 .side-bar{
@@ -96,6 +101,11 @@ main{
 .cat-pic{
     width:20em;
     margin-left:1%;
+
+}
+img{
+    max-width:95%;
+    max-height:auto;
 }
 h3{
     font-size:18px;
