@@ -53,20 +53,28 @@ header{
     font-style:italic;
     font-size:20px;
 }
-.navigation-bar{
+.navigation-bar
+{
     padding-left:13em;
     color:rgb(64, 10, 10);
     font-family:sans-serif;
     font-weight:bold;
     font-size:12px;
     padding-top:1%;
+    padding-bottom:1%;
     margin-left:10%;
     margin-right:10%;
+    background-color:lightgray;
+
 }
 #link{
     color:black;
+    text-decoration:none;
 }
 
+main{
+    font-family:sans-serif;
+}
 .box{
     display:block;
     flex-direction:row;
@@ -82,8 +90,7 @@ header{
     float:right;
     width:15%;
     height:60%;
-    padding-right:10%;
-    padding-bottom:5%;
+    padding:5% 10% 5% 0%;
     font-size:12px;
     word-wrap:break-word;
     font-family:sans-serif;
@@ -108,7 +115,8 @@ h3{
 .fa-cat{
     padding-top:6%;
     font-size:5em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:sans-serif;
+    font-style:italic;
 }
 .box-two
 {
@@ -119,6 +127,17 @@ h3{
     padding-left:2em;
     margin-left:16%;
     margin-right:10%;
+}
+.quote{
+    font-size:18px;
+    color:rgb(83, 176, 176);
+}
+.jeremy{
+    padding-top:.1%;
+    font-style:italic;
+}
+.short-story{
+    padding-bottom:5%;
 }
 .bottom-link{
     color:white;
