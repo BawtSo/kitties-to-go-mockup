@@ -31,7 +31,7 @@
     border-style:solid;
 }*/
 
-.container{
+body{
     display:grid;
     max-width:1440px;
     margin-left:auto;
@@ -40,33 +40,30 @@
 }
 
 header{
-    background-color:hwb(190 15% 33%);
-    color:white;
     font-family:sans-serif;
-    font-size:20px;
-    padding-left:10em;
-    padding-top:2em;
-    padding-bottom:3em;
-    margin-left:10%;
-    margin-right:10%;
+    font-size:18px;
+    margin:0 10% 0 10%;
+    background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
+    background-size:cover;
+    color:white;
+    padding-left:5em;
+    padding-top:10%;
+    padding-bottom:5%;
+    
 }
 .kitties-italic{
     font-style:italic;
     font-size:20px;
 }
-.navigation-bar
-{
-    padding-left:13em;
-    color:rgb(64, 10, 10);
+.navigation-bar{
     font-family:sans-serif;
     font-weight:bold;
     font-size:12px;
+    background-color:lightgray;
+    padding-left:13em;
+    margin:0 10% 0 10%;
     padding-top:1%;
     padding-bottom:1%;
-    margin-left:10%;
-    margin-right:10%;
-    background-color:lightgray;
-
 }
 #link{
     color:black;
@@ -79,20 +76,15 @@ a{
 
 main{
     font-family:sans-serif;
+    margin-left:15%;
 }
-.box{
-    display:flex;
-    flex-direction:column;
-    justify-content:first baseline;
-    width:20em;
-    margin:0 0 20% 0;
-}
+
 .side-bar{
     display:flex;
     flex-direction:column;
     float:right;
     width:20em;
-    padding:5% 10% 5% 0%;
+    padding:2% 10% 5% 0%;
     font-size:12px;
     font-family:sans-serif;
     margin-right:10%;
@@ -128,14 +120,14 @@ h3{
     font-family:sans-serif;
     font-style:italic;
 }
+.intro{
+    font-size:16px;
+    margin-top:5%;
+    color:teal;
+}
 .box-two
 {
-    display:flex;
-    flex-direction:column;
     width:40%;
-    padding-top:2em;
-    padding-left:2em;
-    margin-left:16%;
     margin-right:10%;
 }
 .quote{
@@ -148,6 +140,10 @@ h3{
 }
 .short-story{
     padding-bottom:5%;
+}
+footer{
+    background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true);
+    background-size:cover;
 }
 .bottom-link{
     color:white;
