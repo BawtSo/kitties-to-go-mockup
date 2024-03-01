@@ -1,0 +1,64 @@
+body{
+    max-width:1440px;
+    margin:0 auto 0 auto;
+}
+header{
+    font-family:sans-serif;
+    margin:0 10% 0 10%;
+    background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
+    background-size:cover;
+    color:white;
+    padding-left:5em;
+    padding-top:10%;
+    
+}
+.navigation-bar{
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:12px;
+    background-color:lightgray;
+    padding-left:13em;
+    margin:0 10% 0 10%;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+#link{
+    color:black;
+}
+a{
+    color:teal;
+    text-decoration:none;
+}
+main{
+    margin:0 10% 0 10%;
+
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
+}
+.box{
+    text-align:center;
+    width:300px;
+    height:300px;
+    border:10px solid;
+    margin-bottom:1%;
+}
+
+.bottom-logo{
+    font-size:10px;
+    text-align:center;
+    display:block;
+    padding-bottom:2%;
+    background-color:rgb(79, 74, 74);
+    color:white;    
+    font-family:sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+}
+footer{
+    background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true);
+    background-size:cover;
+}
