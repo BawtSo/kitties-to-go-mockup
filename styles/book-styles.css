@@ -5,6 +5,7 @@ body{
 }
 header{
     font-family:sans-serif;
+    font-variant:small-caps;
     font-size:18px;
     margin:0 10% 0 10%;
     background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
@@ -19,7 +20,7 @@ header{
     font-family:sans-serif;
     font-weight:bold;
     font-size:12px;
-    background-color:lightgray;
+    background-color:rgba(235,235,235,255);
     padding-left:13em;
     margin:0 10% 0 10%;
     padding-top:1%;
@@ -37,7 +38,7 @@ main{
 }
 .cat-title{
     font-size:28px;
-    font-style:bold;
+    font-weight:bold;
     text-align:center;
     text-decoration:underline;
 
@@ -59,7 +60,7 @@ main{
     
 }
 .cat-names{
-    color:white;
+    color:rgba(58,160,187,255);
     font-weight:bold;
     font-style:oblique;
 }
@@ -83,6 +84,10 @@ main{
     font-family:sans-serif;
     margin-left:10%;
     margin-right:10%;
+}
+.bottom-link{
+    color:white;
+    font-weight:bold;
 }
 .fa-cat{
     padding-top:6%;

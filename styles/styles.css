@@ -41,6 +41,7 @@ body{
 
 header{
     font-family:sans-serif;
+    font-variant:small-caps;
     font-size:18px;
     margin:0 10% 0 10%;
     background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
@@ -59,7 +60,7 @@ header{
     font-family:sans-serif;
     font-weight:bold;
     font-size:12px;
-    background-color:lightgray;
+    background-color:rgba(235,235,235,255);
     padding-left:13em;
     margin:0 10% 0 10%;
     padding-top:1%;
@@ -70,7 +71,7 @@ header{
 
 }
 a{
-    color:teal;
+    color:rgba(82,186,213,255);
     text-decoration:none;
 }
 
@@ -97,7 +98,6 @@ main{
 }
 img{
     max-width:95%;
-    max-height:auto;
 }
 h3{
     font-size:18px;
@@ -123,7 +123,7 @@ h3{
 .intro{
     font-size:16px;
     margin-top:5%;
-    color:teal;
+    color:rgb(82, 186, 213)
 }
 .box-two
 {
@@ -132,7 +132,7 @@ h3{
 }
 .quote{
     font-size:18px;
-    color:rgb(83, 176, 176);
+    color:rgba(82,186,213,255);
 }
 .jeremy{
     padding-top:.1%;
