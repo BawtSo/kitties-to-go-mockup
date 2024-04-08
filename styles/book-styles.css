@@ -3,13 +3,16 @@ body{
     margin:0 auto 0 auto;
     font-family:sans-serif;
 }
+
 header{
     font-family:sans-serif;
     font-variant:small-caps;
     font-size:18px;
     margin:0 10% 0 10%;
+    background:linear-gradient(to top, black, white);
     background-image:url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
     background-size:cover;
+    background-color: black;
     color:white;
     padding-left:5em;
     padding-top:10%;
